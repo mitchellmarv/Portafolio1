@@ -21,22 +21,22 @@ with col1:
  st.subheader("Conversión de texto a voz")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+ st.write("En el siguiente enlace veremos cómo se extrae texto de una imagen capturada en tiempo real mediante la cámara web, aplicando filtros opcionales de procesamiento de imagen con OpenCV y Tesseract OCR.") 
  url = "https://ttsappclase-xuzfpyq3nptmannkrebpq8.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("Reconocimiento de texto en imágenes capturadas con cámara")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app/"
+ url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Búsqueda de respuestas por similitud de texto usando TF-IDF")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo se procesa un conjunto de documentos de texto mediante técnicas de procesamiento de lenguaje natural (stemming y TF-IDF) para encontrar la mejor respuesta a una pregunta basándose en la similitud cosenoidal.") 
+ url = "https://questanswer-b5h4uhj4lpwhrbc4qmwfjo.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
@@ -47,18 +47,18 @@ with col2:
  url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Extracción, traducción y síntesis de voz desde imágenes")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo se extrae texto del audio del usuario, para luego traducirlo a múltiples idiomas y convertirlo en un archivo de audio reproducible con diferentes acentos.") 
+ url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Clasificación de imágenes en tiempo real con Teachable Machine y Keras")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo se utiliza un modelo de visión por computadora previamente entrenado para clasificar en tiempo real las fotos tomadas desde la cámara web (por ejemplo, identificando si lo que aparece en la imagen es humano o no).).") 
+ url = "https://facialrecog-dutnm4dbmue8qpeegpbbvi.streamlit.app"
  st.write(f"Transcriptor: [Enlace]({url})")
 
 
@@ -70,11 +70,11 @@ with col3:
  url = "https://ocr-more-gvj3bi7jucdwdssczwngjr.streamlit.app"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Evaluación de polaridad y subjetividad en frases")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo se analiza el tono emocional de un texto en español traduciéndolo al inglés para determinar si expresa un sentimiento positivo, negativo o neutral, junto con su nivel de subjetividad.") 
+ url = "https://sentiapp-4ite2mysfh2iont9mwzbts.streamlit.app"
  st.write(f"Vision: [Enlace]({url})")
  
  st.subheader("Primera aplicación de Ejemplo")
