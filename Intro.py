@@ -22,14 +22,14 @@ with col1:
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
+ url = "https://ttsappclase-xuzfpyq3nptmannkrebpq8.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
+ url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
@@ -44,7 +44,7 @@ with col2:
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
+ url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
@@ -67,7 +67,7 @@ with col3:
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ url = "https://ocr-more-gvj3bi7jucdwdssczwngjr.streamlit.app"
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
@@ -77,11 +77,11 @@ with col3:
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Primera aplicación de Ejemplo")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ st.write("En la siguiente enlace veremos la primera aplicación de ejemplo.") 
+ url = "https://repos1-4v6tukesdjqytrvjsypysc.streamlit.app"
  st.write(f"Vision: [Enlace]({url})")
 
 
