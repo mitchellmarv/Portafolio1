@@ -21,14 +21,14 @@ with col1:
  st.subheader("Conversión de texto a voz")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos cómo se extrae texto de una imagen capturada en tiempo real mediante la cámara web, aplicando filtros opcionales de procesamiento de imagen con OpenCV y Tesseract OCR.") 
+ st.write("En el siguiente enlace veremos cómo transformar bloques de texto ingresados por el usuario en archivos de audio reproducibles y descargables usando la librería gTTS (Google Text-to-Speech).") 
  url = "https://ttsappclase-xuzfpyq3nptmannkrebpq8.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de texto en imágenes capturadas con cámara")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+ st.write("En el siguiente enlace veremos cómo se extrae texto de una imagen capturada en tiempo real mediante la cámara web, aplicando filtros opcionales de procesamiento de imagen con OpenCV y Tesseract OCR.") 
  url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
@@ -47,11 +47,11 @@ with col2:
  url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("lol")
+ st.subheader("Generación y análisis de nubes de palabras interactivas")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("lol") 
- url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo procesar textos o archivos cargados para eliminar palabras vacías, personalizar la paleta de colores y generar una nube de palabras interactiva junto con la tabla de frecuencias de los términos más relevantes.") 
+ url = "https://nubepalabras-2xwaxxthmm8ltubp3jwn5f.streamlit.app"
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Clasificación de imágenes en tiempo real con Teachable Machine y Keras")
@@ -63,10 +63,10 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Extracción, traducción y generación de audio desde imágenes")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+ st.write("En el siguiente enlace veremos cómo extraer texto de una imagen tomada con la cámara o cargada como archivo, para luego traducirlo a varios idiomas y convertir la traducción en un archivo de audio con acentos personalizados.") 
  url = "https://ocr-more-gvj3bi7jucdwdssczwngjr.streamlit.app"
  st.write(f"RAG: [Enlace]({url})")
 
