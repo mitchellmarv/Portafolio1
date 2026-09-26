@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Aplicaciones de IA", page_icon="☕", layout="wide")
+st.set_page_config(page_title="Portafolio Interfaces Multimodales", page_icon="☕", layout="wide")
 
 # ─────────────────────────────────────────────
 # ESTILOS — paleta café
@@ -67,15 +67,13 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("☕ Aplicaciones de Inteligencia Artificial")
+st.title("☕ Portafolio Aplicaciones con IA")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
+  st.subheader("Portafolio Interfaces Multimodales: Isabella Lizalda Ruiz")
+  st.write("La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
     "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
+    "resulta en una mayor eficiencia y precisión en diversos campos.")
 
 col1, col2, col3 = st.columns(3)
 
