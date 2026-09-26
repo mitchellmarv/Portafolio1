@@ -40,17 +40,17 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Extracción, traducción y síntesis de voz")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
+ st.write("En el siguiente enlace veremos cómo se extrae texto del audio del usuario, para luego traducirlo a múltiples idiomas y convertirlo en un archivo de audio reproducible con diferentes acentos.") 
  url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Extracción, traducción y síntesis de voz desde imágenes")
+ st.subheader("lol")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos cómo se extrae texto del audio del usuario, para luego traducirlo a múltiples idiomas y convertirlo en un archivo de audio reproducible con diferentes acentos.") 
+ st.write("lol") 
  url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
