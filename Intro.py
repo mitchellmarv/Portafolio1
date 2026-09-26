@@ -71,7 +71,7 @@ st.title("☕ Portafolio Aplicaciones con IA")
 
 with st.sidebar:
   st.subheader("Portafolio Interfaces Multimodales: Isabella Lizalda Ruiz")
-  st.write("Este portafolio reúne un grupo de aplicaciones web desarrolladas en Streamlit que muestran cómo aplicar herramientas de Inteligencia Artificial, Visión por Computadora y Procesamiento de Lenguaje Natural (PLN) de forma práctica y entretenida. En los proyectos exploramos desde el análisis de sentimientos en textos y la búsqueda semántica ($TF\text{-}IDF$), hasta la extracción de texto en imágenes ($OCR$), la clasificación de fotos en tiempo real con redes neuronales y la conversión de texto a audio multilingüe (Text-to-Speech), demostrando cómo llevar modelos de código a interfaces funcionales, útiles y fáciles de usar para cualquier persona.")
+  st.write("Este portafolio reúne un grupo de aplicaciones web desarrolladas en Streamlit que muestran cómo aplicar herramientas de Inteligencia Artificial, Visión por Computadora y Procesamiento de Lenguaje Natural (PLN) de forma práctica y entretenida. En los proyectos exploramos desde el análisis de sentimientos en textos y la búsqueda semántica (TF-IDF), hasta la extracción de texto en imágenes (OCR), la clasificación de fotos en tiempo real con redes neuronales y la conversión de texto a audio multilingüe (Text-to-Speech), demostrando cómo llevar modelos de código a interfaces funcionales, útiles y fáciles de usar para cualquier persona.")
 
 col1, col2, col3 = st.columns(3)
 
