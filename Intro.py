@@ -57,7 +57,7 @@ with col2:
  st.subheader("Clasificación de imágenes en tiempo real con Teachable Machine y Keras")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se utiliza un modelo de visión por computadora previamente entrenado para clasificar en tiempo real las fotos tomadas desde la cámara web (por ejemplo, identificando si lo que aparece en la imagen es humano o no).).") 
+ st.write("En el siguiente enlace veremos cómo se utiliza un modelo de visión por computadora previamente entrenado para clasificar en tiempo real las fotos tomadas desde la cámara web (por ejemplo, identificando si lo que aparece en la imagen es humano o no).") 
  url = "https://facialrecog-dutnm4dbmue8qpeegpbbvi.streamlit.app"
  st.write(f"Transcriptor: [Enlace]({url})")
 
