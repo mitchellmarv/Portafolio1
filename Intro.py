@@ -154,3 +154,14 @@ with col3:
  st.write("En la siguiente enlace veremos la primera aplicación de ejemplo.")
  url = "https://repos1-4v6tukesdjqytrvjsypysc.streamlit.app"
  st.write(f"Vision: [Enlace]({url})")
+
+st.divider()
+ 
+col_a, col_b, col_c = st.columns([1, 2, 1])
+with col_b:
+ st.subheader("Detección y conteo de objetos con YOLOv5 y métricas avanzadas")
+ image = Image.open('10.jpg')
+ st.image(image, width=220)
+ st.write("En el siguiente enlace veremos cómo capturar imágenes desde la cámara web para analizar y detectar múltiples objetos en tiempo real mediante la arquitectura de aprendizaje profundo YOLOv5, visualizando los recuadros delimitadores, la tabla de frecuencias por categoría y métricas de confianza promedio.")
+ url = "https://yoloclase-uvmrhum2szkcdjsjm4ypgy.streamlit.app"
+ st.write(f"YOLOv5: [Enlace]({url})")
