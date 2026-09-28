@@ -82,7 +82,7 @@ with col1:
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos cómo transformar bloques de texto ingresados por el usuario en archivos de audio reproducibles y descargables usando la librería gTTS (Google Text-to-Speech).")
  url = "https://ttsappclase-xuzfpyq3nptmannkrebpq8.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -91,7 +91,7 @@ with col1:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo se extrae texto de una imagen capturada en tiempo real mediante la cámara web, aplicando filtros opcionales de procesamiento de imagen con OpenCV y Tesseract OCR.")
  url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -100,7 +100,7 @@ with col1:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo se procesa un conjunto de documentos de texto mediante técnicas de procesamiento de lenguaje natural (stemming y TF-IDF) para encontrar la mejor respuesta a una pregunta basándose en la similitud cosenoidal.")
  url = "https://questanswer-b5h4uhj4lpwhrbc4qmwfjo.streamlit.app"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
 with col2:
  st.subheader("Extracción, traducción y síntesis de voz")
@@ -108,7 +108,7 @@ with col2:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo se extrae texto del audio del usuario, para luego traducirlo a múltiples idiomas y convertirlo en un archivo de audio reproducible con diferentes acentos.")
  url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -117,7 +117,7 @@ with col2:
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos cómo procesar textos o archivos cargados para eliminar palabras vacías, personalizar la paleta de colores y generar una nube de palabras interactiva junto con la tabla de frecuencias de los términos más relevantes.")
  url = "https://nubepalabras-2xwaxxthmm8ltubp3jwn5f.streamlit.app"
- st.write(f"Datos: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -126,7 +126,7 @@ with col2:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo se utiliza un modelo de visión por computadora previamente entrenado para clasificar en tiempo real las fotos tomadas desde la cámara web (por ejemplo, identificando si lo que aparece en la imagen es humano o no).")
  url = "https://facialrecog-dutnm4dbmue8qpeegpbbvi.streamlit.app"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
 
 with col3:
@@ -135,7 +135,7 @@ with col3:
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos cómo extraer texto de una imagen tomada con la cámara o cargada como archivo, para luego traducirlo a varios idiomas y convertir la traducción en un archivo de audio con acentos personalizados.")
  url = "https://ocr-more-gvj3bi7jucdwdssczwngjr.streamlit.app"
- st.write(f"RAG: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -144,7 +144,7 @@ with col3:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo se analiza el tono emocional de un texto en español traduciéndolo al inglés para determinar si expresa un sentimiento positivo, negativo o neutral, junto con su nivel de subjetividad.")
  url = "https://sentiapp-4ite2mysfh2iont9mwzbts.streamlit.app"
- st.write(f"Vision: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
  st.divider()
 
@@ -153,7 +153,7 @@ with col3:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo capturar imágenes desde la cámara web para analizar y detectar múltiples objetos en tiempo real mediante la arquitectura de aprendizaje profundo YOLOv5, visualizando los recuadros delimitadores, la tabla de frecuencias por categoría y métricas de confianza promedio.")
  url = "https://yoloclase-uvmrhum2szkcdjsjm4ypgy.streamlit.app"
- st.write(f"Vision: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
 
 st.divider()
  
@@ -164,4 +164,4 @@ with col_b:
  st.image(image, width=220)
  st.write("En la siguiente enlace veremos la primera aplicación de ejemplo.")
  url = "https://repos1-4v6tukesdjqytrvjsypysc.streamlit.app"
- st.write(f"YOLOv5: [Enlace]({url})")
+ st.write(f"Página Web: [Enlace]({url})")
