@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Aplicaciones de IA", page_icon="🌌", layout="wide")
+st.set_page_config(page_title="Segundo Portafolio Interfaces Multimodales", page_icon="🌌", layout="wide")
 
 # ─────────────────────────────────────────────
 # ESTILOS — tema galaxia (morados y azules)
@@ -100,39 +100,39 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🌌 Aplicaciones de Inteligencia Artificial")
+st.title("Aplicaciones con Inteligencia Artificial (2)")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Portafolio Interfaces Multimodales (2): Isabella Lizalda Ruiz")
   st.write("Este portafolio reúne un conjunto de aplicaciones web desarrolladas en Streamlit que exploran la integración de Inteligencia Artificial, Visión por Computadora, Procesamiento de Lenguaje Natural (PLN) e Internet de las Cosas (IoT) de forma interactiva. Dentro de estos proyectos abordamos el análisis inteligente de imágenes y bocetos mediante redes neuronales (CNN, MNIST) y modelos multimodales (gpt-4o), la consulta de documentos en formato PDF usando sistemas de Recuperación Aumentada por Generación (RAG) con bases vectoriales (FAISS), y la creación de lienzos creativos con extracción de colorimetría en espacio CIE Lab. Además, conectamos la web con el entorno físico a través de paneles de control IoT y reconocimiento de voz para actuadores mediante el protocolo MQTT (tanto en prototipos base como en versiones personalizadas para simulación en Wokwi), demostrando cómo transformar código en interfaces funcionales, dinámicas y fáciles de usar.")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
 
- st.subheader("Conversión de texto a voz")
+ st.subheader("Clasificación e interpretación de números dibujados a mano con Redes Neuronales")
  image = Image.open('1.jpg')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos cómo transformar bloques de texto ingresados por el usuario en archivos de audio reproducibles y descargables usando la librería gTTS (Google Text-to-Speech).")
- url = "https://ttsappclase-xuzfpyq3nptmannkrebpq8.streamlit.app/"
+ st.write("En el siguiente enlace veremos cómo dibujar dígitos en un lienzo interactivo para que un modelo de red neuronal convolucional (CNN) entrenado en MNIST prediga el número en tiempo real y muestre un análisis gráfico de las probabilidades de cada opción.")
+ url = "https://escritura1-aqjafjmvuz6elzxsvakp7q.streamlit.app"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Reconocimiento de texto en imágenes capturadas con cámara")
+ st.subheader("Análisis de paletas de color y conversión a CIE Lab en lienzos")
  image = Image.open('2.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se extrae texto de una imagen capturada en tiempo real mediante la cámara web, aplicando filtros opcionales de procesamiento de imagen con OpenCV y Tesseract OCR.")
- url = "https://imagenrecog-deypwbnqyfbcniexbfcf2i.streamlit.app"
+ st.write("En el siguiente enlace veremos cómo dibujar sobre un panel con estilo galáctico para extraer automáticamente la paleta de colores dominantes en el lienzo, identificando sus códigos HEX, RGB y nombres en español mediante conversión a espacio de color CIE Lab.")
+ url = "https://dibujorecog-vnxqmegb3pzv5tkguif65r.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Búsqueda de respuestas por similitud de texto usando TF-IDF")
+ st.subheader("Control de actuadores IoT vía protocolo MQTT (Prototipo funcional)")
  image = Image.open('3.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se procesa un conjunto de documentos de texto mediante técnicas de procesamiento de lenguaje natural (stemming y TF-IDF) para encontrar la mejor respuesta a una pregunta basándose en la similitud cosenoidal.")
- url = "https://questanswer-b5h4uhj4lpwhrbc4qmwfjo.streamlit.app"
+ st.write("En el siguiente enlace veremos la versión original del panel para enviar comandos de control a dispositivos IoT (como LEDs y servomotores) publicando mensajes JSON en tópicos de un broker MQTT en tiempo real.")
+ url = "https://sensormqtt-eallek5nwy2yt2bpmnfjhy.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2:
