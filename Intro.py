@@ -115,7 +115,7 @@ with col1:
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos cómo dibujar dígitos en un lienzo interactivo para que un modelo de red neuronal convolucional (CNN) entrenado en MNIST prediga el número en tiempo real y muestre un análisis gráfico de las probabilidades de cada opción.")
  url = "https://escritura1-aqjafjmvuz6elzxsvakp7q.streamlit.app"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
@@ -124,7 +124,7 @@ with col1:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo dibujar sobre un panel con estilo galáctico para extraer automáticamente la paleta de colores dominantes en el lienzo, identificando sus códigos HEX, RGB y nombres en español mediante conversión a espacio de color CIE Lab.")
  url = "https://dibujorecog-vnxqmegb3pzv5tkguif65r.streamlit.app"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
@@ -133,57 +133,57 @@ with col1:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos la versión original del panel para enviar comandos de control a dispositivos IoT (como LEDs y servomotores) publicando mensajes JSON en tópicos de un broker MQTT en tiempo real.")
  url = "https://sensormqtt-eallek5nwy2yt2bpmnfjhy.streamlit.app"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"App: [Enlace]({url})")
 
 with col2:
- st.subheader("Extracción, traducción y síntesis de voz")
+ st.subheader("Reconocimiento e interpretación de bocetos mediante la API de OpenAI")
  image = Image.open('4.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se extrae texto del audio del usuario, para luego traducirlo a múltiples idiomas y convertirlo en un archivo de audio reproducible con diferentes acentos.")
- url = "https://tradlizalda-tbbbhpfmhbxv6spytpygsg.streamlit.app"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos cómo dibujar cualquier elemento en un panel de dibujo para que un modelo de visión por computadora (gpt-4o-mini) analice la ilustración y genere una descripción en texto en español de lo que representa el boceto.")
+ url = "https://dibujorecog-tanm5sfvbf4wviw38vstyt.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Generación y análisis de nubes de palabras interactivas")
+ st.subheader("Asistente conversacional para análisis de PDFs mediante RAG y FAISS")
  image = Image.open('5.jpg')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos cómo procesar textos o archivos cargados para eliminar palabras vacías, personalizar la paleta de colores y generar una nube de palabras interactiva junto con la tabla de frecuencias de los términos más relevantes.")
- url = "https://nubepalabras-2xwaxxthmm8ltubp3jwn5f.streamlit.app"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos cómo cargar archivos PDF para dividirlos en fragmentos (chunks), crear una base de conocimiento vectorial con FAISS y responder preguntas específicas usando un modelo de lenguaje con contexto recuperado (RAG).")
+ url = "https://chatearpdf-lbyzan6rycteszq9fvykwr.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Clasificación de imágenes en tiempo real con Teachable Machine y Keras")
+ st.subheader("Interfaz minimalista de control IoT para simulaciones ESP32 en Wokwi")
  image = Image.open('6.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se utiliza un modelo de visión por computadora previamente entrenado para clasificar en tiempo real las fotos tomadas desde la cámara web (por ejemplo, identificando si lo que aparece en la imagen es humano o no).")
- url = "https://facialrecog-dutnm4dbmue8qpeegpbbvi.streamlit.app"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos la versión decorada y personalizada del panel MQTT, con una interfaz adaptada para controlar actuadores en una simulación de ESP32 dentro de Wokwi, incluyendo instrucciones detalladas y formateo de datos analógicos a ángulos.")
+ url = "https://controlmqtt-eg5gkzqebk6xjixl8zhvvm.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
 
 
 with col3:
- st.subheader("Extracción, traducción y generación de audio desde imágenes")
+ st.subheader("Dibujo interactivo y creación de figuras geométricas con tema espacial")
  image = Image.open('7.jpg')
  st.image(image, width=190)
- st.write("En el siguiente enlace veremos cómo extraer texto de una imagen tomada con la cámara o cargada como archivo, para luego traducirlo a varios idiomas y convertir la traducción en un archivo de audio con acentos personalizados.")
- url = "https://ocr-more-gvj3bi7jucdwdssczwngjr.streamlit.app"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos la versión decorada y personalizada de un lienzo interactivo estilizado con temática espacial, que permite realizar trazos libres y agregar figuras geométricas avanzadas (estrellas, polígonos, elipses) manipulables mediante herramientas de transformación.")
+ url = "https://dibujorecog-5cc2m9vkxg6mrom4putrsg.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Evaluación de polaridad y subjetividad en frases")
+ st.subheader("Interpretación y descripción detallada de imágenes mediante GPT-4o")
  image = Image.open('8.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos cómo se analiza el tono emocional de un texto en español traduciéndolo al inglés para determinar si expresa un sentimiento positivo, negativo o neutral, junto con su nivel de subjetividad.")
- url = "https://sentiapp-4ite2mysfh2iont9mwzbts.streamlit.app"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos cómo subir archivos de imagen (PNG, JPG) para analizarlos en tiempo real con un modelo multimodal de OpenAI, permitiendo agregar contexto o preguntas específicas para obtener descripciones en español.")
+ url = "https://interpretimage-kbdjywtfuljyspe9c42a6n.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
 
  st.divider()
 
- st.subheader("Primera aplicación de Ejemplo")
+ st.subheader("Reconocimiento de voz en tiempo real para control de dispositivos IoT")
  image = Image.open('9.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la primera aplicación de ejemplo.")
- url = "https://repos1-4v6tukesdjqytrvjsypysc.streamlit.app"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos cómo capturar instrucciones de voz en español desde el micrófono usando la API Web Speech, convirtiendo los comandos hablados en mensajes MQTT para controlar iluminación y mecanismos en tiempo real.")
+ url = "https://voicemqtt-2g99zywgoflzh7nucchgvf.streamlit.app"
+ st.write(f"App: [Enlace]({url})")
