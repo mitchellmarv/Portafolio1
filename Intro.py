@@ -104,11 +104,9 @@ st.title("🌌 Aplicaciones de Inteligencia Artificial")
 
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
+  st.write("Este portafolio reúne un conjunto de aplicaciones web desarrolladas en Streamlit que exploran la integración de Inteligencia Artificial, Visión por Computadora, Procesamiento de Lenguaje Natural (PLN) e Internet de las Cosas (IoT) de forma interactiva. 
+  Dentro de estos proyectos abordamos el análisis inteligente de imágenes y bocetos mediante redes neuronales (CNN, MNIST) y modelos multimodales (gpt-4o), la consulta de documentos en formato PDF usando sistemas de Recuperación Aumentada por Generación (RAG) con bases vectoriales (FAISS), y la creación de lienzos creativos con extracción de colorimetría en espacio CIE Lab. 
+  Además, conectamos la web con el entorno físico a través de paneles de control IoT y reconocimiento de voz para actuadores mediante el protocolo MQTT (tanto en prototipos base como en versiones personalizadas para simulación en Wokwi), demostrando cómo transformar código en interfaces funcionales, dinámicas y fáciles de usar.")
 
 col1, col2, col3 = st.columns(3)
 
